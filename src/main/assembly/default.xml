@@ -57,7 +57,7 @@
     </dependencySets>
     <fileSets>
         <fileSet>
-            <directory>src/main/h2</directory>
+            <directory>h2</directory>
             <outputDirectory>glassfish/h2db</outputDirectory>
         </fileSet>              
     </fileSets>
