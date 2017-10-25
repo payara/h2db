@@ -45,7 +45,29 @@
     <artifactId>h2db</artifactId>	
     <version>${version.h2}</version>
     <name>H2 DB distribution for Payara</name>
-        
+    
+    <licenses>
+        <license>
+            <name>COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL)Version 1.1</name>
+            <url>https://raw.githubusercontent.com/payara/Payara/master/LICENSE.txt</url>
+        </license>
+    </licenses>
+       
+    <developers>
+        <developer>
+            <name>Gaurav Gupta</name>
+            <email>gaurav.gupta@payara.fish</email>
+            <organization>Payara Service Ltd.</organization>
+            <organizationUrl>https://www.payara.fish/</organizationUrl>
+        </developer>
+    </developers>
+    
+    <scm>
+        <connection>scm:git:git://github.com/payara/h2db.git</connection>
+        <developerConnection>scm:git:git@github.com:payara/h2db.git</developerConnection>
+        <url>http://github.com/payara/h2db</url>
+    </scm>
+  
     <properties>
         <version.h2>1.4.196</version.h2>
     </properties>   
@@ -90,4 +112,6 @@
             </plugin>
         </plugins>
     </build>
+    
+    
 </project>
