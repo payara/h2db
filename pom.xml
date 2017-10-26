@@ -43,7 +43,7 @@
    
     <groupId>h2db</groupId>
     <artifactId>h2db</artifactId>	
-    <version>${version.h2}</version>
+    <version>1.4.196</version>
     <name>H2 DB distribution for Payara</name>
     
     <licenses>
@@ -112,6 +112,4 @@
             </plugin>
         </plugins>
     </build>
-    
-    
 </project>

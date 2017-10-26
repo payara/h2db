@@ -50,7 +50,7 @@
     <dependencySets>
         <dependencySet>
             <useProjectArtifact>true</useProjectArtifact>
-            <outputDirectory>glassfish/h2db/bin</outputDirectory>
+            <outputDirectory>bin</outputDirectory>
             <unpack>false</unpack>
             <outputFileNameMapping>h2.jar</outputFileNameMapping>
         </dependencySet>
@@ -58,7 +58,7 @@
     <fileSets>
         <fileSet>
             <directory>h2</directory>
-            <outputDirectory>glassfish/h2db</outputDirectory>
+            <outputDirectory>/</outputDirectory>
         </fileSet>              
     </fileSets>
 </assembly>
